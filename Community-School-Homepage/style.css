@@ -1,0 +1,147 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+* {
+  font-size: 10px;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 23px;
+}
+
+body {
+  font-family: serif;
+  line-height: 0.4cm;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+h2 + p {
+  text-indent: 20px;
+}
+
+.links {
+  text-decoration: underline;
+  color: #a66;
+}
+
+.links:visited {
+  color: grey;
+}
+
+.links:hover {
+  font-size: 15px;
+  color: brown;
+  text-decoration: none;
+}
+
+.links:focus {
+  font-weight: bold;
+  color: #a66;
+  text-decoration: none;
+}
+
+.links:active {
+  font-family: cursive;
+}
+
+#external-link::after {
+  content: url();
+  size: 5px;
+  margin-left: 5px;
+  /* How can I make it so that the external links have the external link icon after? */
+}
+
+ul {
+  line-height: 0.4cm;
+  list-style-type: circle;
+}
+
+.navigation {
+  text-decoration: none;
+  font-size: 20px;
+  color: #a66;
+  line-height: 1.5cm;
+  border: 2px solid #a66;
+  margin: 0.5cm;
+  border-radius: 50%;
+  width: 130px;
+  height: 65px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation:hover {
+  font-size: 25px;
+}
+
+.navigation:focus {
+  font-weight: bold;
+}
+
+.navigation:active {
+  font-family: cursive;
+}
+
+nav ul {
+  list-style-type: none;
+}
